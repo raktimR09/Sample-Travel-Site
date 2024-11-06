@@ -1,0 +1,149 @@
+body{
+    background-image:url("searchCover.jpg");
+    background-size:cover;
+}
+
+
+#logo{
+    height:75px;
+    width:75px;
+    margin-right:10px;
+}
+#head{
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:5px;;
+    border:0;
+}
+
+#search{
+    display:flex;
+    justify-content:center;
+}
+
+#searchbar{
+    text-align:center;
+    width:400px;
+    height:30px;
+    border:1px solid black;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+}
+#icon{
+    text-align:center;
+    margin-left:12px;
+}
+
+#searchbox{
+    width:360px;
+    height:30px;
+    font-size:20px;
+}
+#upper{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.box{
+    height:200px;
+    width:200px;
+    border-radius:20%;
+    margin-top:25px;
+    font-size:25px;
+    font-weight:700;
+}
+#contents{
+    margin-top:25px;
+    display:flex;
+    flex-wrap:wrap;
+    JUSTIFY-CONTENT:space-between;
+    
+}
+
+.out{
+    text-align:center;
+    font-weight:700;
+}
+
+#box1{
+    background-image:url("jaipur.jpg");
+    background-size:cover;
+}
+
+#box2{
+    background-image:url("goa.jpeg");
+    background-size:cover;
+}
+
+#box3{
+    background-image:url("darjeeling.jpg");
+    background-size:cover;
+}
+
+#box4{
+    background-image:url("varanasi.jpg");
+    background-size:cover;
+}
+
+#box5{
+    background-image:url("kerala.jpg");
+    background-size:cover;
+}
+
+#box6{
+    background-image:url("puri.jpg");
+    background-size:cover;
+}
+
+#box7{
+    background-image:url("agra.jpg");
+    background-size:cover;
+}
+
+#box8{
+    background-image:url("digha.jpeg");
+    background-size:cover;
+}
+
+#box9{
+    background-image:url("SHILLONG.jpg");
+    background-size:cover;
+}
+
+#box10{
+    background-image:url("kolkata.jpg");
+    background-size:cover;
+}
+
+#box11{
+    background-image:url("shimla.jpg");
+    background-size:cover;
+}
+
+#box12{
+    background-image:url("Kutch.jpg");
+    background-size:cover;
+}
+
+#box13{
+    background-image:url("manali.jpg");
+    background-size:cover;
+}
+
+#box14{
+    background-image:url("ooty.jpg");
+    background-size:cover;
+}
+
+.explore{
+    background-color:blue;
+    border-radius:15%;
+    color:white;
+    font-weight:600;
+}

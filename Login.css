@@ -1,0 +1,90 @@
+body{
+    text-align:center;
+    background-image:url("cover.jpg");
+    background-size:cover;
+}
+#whole{
+    display: flex;
+    justify-content:center;
+}
+#logo{
+    height:120px;
+    width:120px;
+}
+#heading{
+    margin:10px 0px 10px 25px;;
+    font-weight:800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#l1{
+    font-size:30px;
+}
+
+#l2{
+    font-size:15px;
+}
+#newacc{
+    color:aquamarine;
+}
+.outerBox{
+    height:400px;
+    width:450px;
+    position:absolute;
+    border-radius:1.5%;
+    top:20%;
+    left:35%;
+    color:rgb(0, 255, 106);
+    background-image:url("inner.jpg");
+    background-size:cover;
+    font-family:cursive;
+}
+
+.username{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-weight:600;
+    margin:20px 0px 20px 0px;
+}
+
+.password{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-weight:600;
+    margin:20px 0px 20px 0px;
+}
+
+#mailbox{
+    width:300px;
+    height:30px;
+}
+
+#pwd{
+    width:300px;
+    height:30px;
+}
+
+#remember{
+    margin:0px 0px 0px 25px;
+    display:flex;
+    justify-content:center;
+}
+#submit{
+    display:flex;
+    justify-content:center;
+}
+#submitbutton{
+    text-align:center;
+    height:30px;
+    width:200px;
+    background-color:cornflowerblue;
+}
+
+#alternate{
+    margin-top: 15px;
+    display:flex;
+    justify-content:center;
+    color:rebeccapurple;
+}

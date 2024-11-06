@@ -1,0 +1,90 @@
+body{
+    background-color:#cdd3d0;
+}
+
+#logo{
+    height:85px;
+    width:85px;
+}
+
+#login{
+    height:45px;
+    width:80px;
+    position:absolute;
+    right:2px;
+    top:2px;
+    background-color:lightseagreen;
+    color:black;
+    font-weight:700px;
+}
+
+h1{
+    color:white;
+}
+
+#photo{
+    height: 250px;
+    background-image:url("Main.jpg");
+    background-size:cover;
+    position:relative;
+    text-align:center;
+    padding-top:50px;
+}
+#content{
+    text-align:center;
+}
+
+#boxes{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:3px;
+    
+}
+.contain{
+    text-align:center;
+    width:120px;
+}
+
+.an{
+    text-decoration:none;
+    color:black;
+}
+
+p{
+    font-weight:700;
+}
+    
+.box{
+    height:120px;
+    width:120px;
+    border-radius:10%;
+    margin:10px 150px 0px 0px;  
+    font-size:15px;
+    font-weight:700;
+    border:none;
+}
+
+#box1{
+    background-image:url("search.jpg");
+    background-size:cover;
+}
+
+#box2{
+    background-image:url("discuss.jpeg");
+    background-size:cover;
+}
+
+#box3{
+    background-image:url("profile.jpg");
+    background-size:cover;
+    COLOR:WHITE;
+}
+
+#about{
+    background-color:#323025;
+    height:200px;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+}
+

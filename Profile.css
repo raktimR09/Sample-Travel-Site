@@ -1,0 +1,117 @@
+#logo{
+    height:75px;
+    width:75px;
+    margin-right:10px;
+}
+#head{
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:5px;;
+    border:0;
+}
+#photo{
+    background-image:url("coverphoto.jpg");
+    background-size:cover;
+    width:vw;
+    padding-top:50px;
+    padding-left:25px;
+    padding-right:25px;
+    height:125px;
+    margin-bottom:150px;
+}
+
+#details{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+
+#profile{
+    height:210px;
+    width:210px;
+    border:1px solid black;
+    background-image:url("starc.jpg");
+    background-size:cover;
+    border-radius:50%;
+    position:relative;
+}
+
+#name{
+    font-size:30px;
+    margin-left:10px;
+    font-weight:700;
+}
+
+.other{
+    width:750px;
+    display:flex;
+    justify-content:space-evenly;
+    font-size:1rem;
+    font-weight:600;
+}
+#upload{
+    text-align:center;
+}
+
+#edit{
+    margin-top:7px;
+    background-color:blue;
+    color:white;
+}
+
+#icon{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+#contents{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.c{
+    height:280px;
+    width:250px;
+    border:1px solid black;
+    text-align:center;
+}
+
+.box{
+    height:200px;
+    width:200px;
+    margin-left:25px;
+    margin-top:10px;
+}
+
+#visited{
+    background-image:url(visits.png);
+    background-size:cover;
+}
+
+#ex{
+    background-image:url(experience.jpg);
+    background-size:cover;
+}
+
+#recomm{
+    background-image:url(recommendations.jpg);
+    background-size:cover;
+}
+
+#wishlist{
+    background-image:url(wishlist.jpg);
+    background-size:cover;
+}
+.txt{
+    font-size:larger;
+    font-weight:700;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
